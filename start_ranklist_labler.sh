@@ -1,0 +1,1 @@
+streamlit run ranklist_labeler.py  --server.address 127.0.0.1 --server.port 8904
