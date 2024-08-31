@@ -39,7 +39,7 @@ st.set_page_config(
 MODEL_CONFIG = {
    
     #'dataset_file': 'data/human_labeled/total_dataset.tsv',       # 标注数据集的存放文件
-    'q_a_file':'/data1/wangcong/topic/6_transformers_tasks/RLHF/data/q_a.jsonl',
+    'q_a_file':'data/q_a.jsonl',
     'rank_list_len': 4,                                           # 排序列表的长度
     #'max_gen_seq_len': 40,                                        # 生成答案最大长度
     # 'random_prompts': [                                           # 随机prompt池
@@ -50,7 +50,6 @@ MODEL_CONFIG = {
     #                     '说实话，真的很',
     #                     '这次购物总的来说体验很'
     #                 ],
-    'q_a_file':'/data1/wangcong/topic/6_transformers_tasks/RLHF/data/q_a.jsonl', 
     'q_a_num' : 3,              
 }
 
